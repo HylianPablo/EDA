@@ -1,0 +1,5 @@
+GeneraFicheros cuenta las líneas del fichero a dividir y las divide entre 50, según el enunciado de la práctica, el tamaño medio de cada url. Tras eso, se guardan en un array y se le aplica el algoritmo de ordenación de fusión. Cuando están ordenadas se dividen en los correspondientes subficheros.
+
+ProxySim: Se comienza generando un array con cada primera url de los subficheros generados y la última url del último fichero. Tras esto se compara cada url con los elementos del array. Esto en vez de hacerse por bucles for, se realiza a través del algoritmo de búsqueda binaria. Tras acabar el programa, se imprimen por pantalla los datos referentes a la ejecución del programa.
+
+ActualizaFicheros: Utilizando los métodos de ProxySim, se lee la primera url de cada subfichero y la última de el último subfichero. Tras eso, se procede a introducir la nueva url en el subfichero correspondiente. Cuando se ha hecho, se almacenan las urls de ese subfichero en un array, se le aplica el algoritmo de ordenación por fusión y se sustituye el fichero anterior.
